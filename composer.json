@@ -1,0 +1,19 @@
+{
+    "name": "hdvianna/batchma",
+    "description": "Batch mailer with templates",
+    "require": {
+        "twig/twig": "^2.5",
+        "phpmailer/phpmailer": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hdvianna\\": "src/"
+        }
+    },	
+    "authors": [
+        {
+            "name": "Henrique Damasceno Vianna",
+            "email": "hdvianna@gmail.com"
+        }
+    ]
+}
